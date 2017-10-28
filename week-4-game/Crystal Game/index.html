@@ -1,9 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Crystal Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+<div class="container">
+	<div class="title">
+		<h1>The Crystal Skull</h1>
+	</div>
+	<div class="instructions">
+		<p>This is a game of guessing the correct number of the crystal skull</p>
+		<p>Using the guessing gems below, to win this game you must guess the exact number of the crystal skull</p>
+		<p>If you go over the number selected then you lose</p>
+		<p>If you run out of live you also lose</p>
+		<p>Have Fun!</p>
+	</div>
+	<div class="gameGrid">
+		<div class="randNumber">
+			<p>Crystals Number</p>
+			<br>
+			<h2>100</h2>
+		</div>
+	<div class="gameNested">
+		<div class="wins">
+			<p>Wins</p>
+			<br>
+			<h2>3</h2>
+		</div>
+		<div class="losses">
+			<p>Losses</p>
+			<br>
+			<h2>6</h2>
+		</div>
+	</div>
+	</div>
+	<div class="gemGrid">
+		<div class="ruby">
+			<img src="assets/images/ruby.png">
+		</div>
+		<div class="diamond">
+			<img src="assets/images/diamond.png">
+		</div>
+		<div class="topaz">
+			<img src="assets/images/topaz.png">
+		</div>
+		<div class="emerald">
+			<img src="assets/images/emerald.png">
+		</div>
+	</div>
+	
+	<div class="score">
+		<h1>Your Score</h1>
+		<p>100</p>
+	</div>
+
+</div>
+	<footer>
+		
+	</footer>
 
 </body>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </html>
